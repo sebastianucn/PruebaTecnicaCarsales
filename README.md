@@ -1,3 +1,8 @@
+En el directorio src/app/episodes  se encuentran los componentes necesarios para la importacion de datos desde la API
+episodes.components.ts = contiene el metododo para extraer los datos desde la url
+los datos importados se deben refejar en la vista app.component.html
+
+
 # PruebaTecnicaCarsales
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
