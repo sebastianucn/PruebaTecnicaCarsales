@@ -1,0 +1,12 @@
+<div class="data-container" *ngIf="data.length > 0; else noData">
+    <h2 class="data-title">Resultados de la API</h2>
+    <ul class="data-list">
+      <li class="data-item" *ngFor="let item of data">
+        <h3>{{ episode.name }}</h3>
+      <p>Episode: {{ episode.episode }}</p>
+      <p>Air Date: {{ episode.air_date }}</p>
+    </ul>
+  
+  <ng-template #noData>
+    <p class="no-data-message">No se encontraron datos.</p>
+  </ng-template>
